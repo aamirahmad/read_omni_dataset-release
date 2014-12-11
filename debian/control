@@ -1,0 +1,12 @@
+Source: ros-hydro-read-omni-dataset
+Section: misc
+Priority: extra
+Maintainer: aamir <aamir.iitkgp@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-cmake-modules, ros-hydro-cv-bridge, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-read-omni-dataset
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cv-bridge, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-rospy
+Description: This package is a read module that asynchronously reads messages from the socrob omni dataset. The purpose of this package is to provide a quick and ready-to-start platform for developing and implementing perception related algorithms on the omni dataset
